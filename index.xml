@@ -2,190 +2,226 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:js='false' b:layoutsVersion='3' b:templateUrl='indie.xml' b:templateVersion='1.3.0' class='v2' expr:dir='data:blog.languageDirection' lang='vi' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 	&lt;head&gt;
-		<title>Phúc - Thông tin thanh toán</title>
+		<title>Thông tin cá nhân</title>
 		<meta content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' name='viewport'/>
-		<meta content='https://imgur.com/mjVbiwD.png' property='og:image'/>
-  <link href='https://imgur.com/Zx8Kyss.png' rel='icon' type='image/x-icon'/>
-		<meta content='https://thhlam-bank.ml/' property='og:url'/>
+		<link href='https://1.bp.blogspot.com/-hgQuQLjKWiM/YKytpXcsa6I/AAAAAAAAFiU/j3Ixpn1632M_SuCVcgvFY01Vxg5gV2EdwCLcBGAsYHQ/s16000/favicon-1000x1000.png' rel='shortcut icon' type='image/x-icon'/>
+		<meta content='https://i.imgur.com/LLpg0Db.png' property='og:image'/>
+		<meta content='https://codeprof23.blogspot.com/' property='og:url'/>
 		<meta content='website' property='og:type'/>
-		<meta content='Phúc - Thông Tin Thanh Toán' property='og:title'/>
-		<meta content='Click vào link này để bank cho Phúc!' property='og:description'/>
-		<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
-		<link href='https://cdn.jsdelivr.net/gh/leanhducprovn/cdn/font-awesome/pro-5.15.3/css/all.css' rel='stylesheet'/>
-		<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap' rel='stylesheet'/>
+		<meta content='Lê Anh Đức' property='og:title'/>
+		<meta content='Xây dựng và phát triển' property='og:description'/>
+		<link href='https://cdn.leanhduc.pro.vn/font-awesome/pro-5.15.3/css/all.css' rel='stylesheet'/>
+		<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'/>
+		<link href='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.3.4/sweetalert2.css' rel='stylesheet'/>
 		<!-- Bắt đầu css-->
 		<b:skin><![CDATA[
 		/* Chèn CSS vào đây */
 		/*------------------------------------------------*/
-		/* Name: Template giới thiệu bản thân version 9.0 */
-		/* Admin: Lâm.                                           */
-		/* Phone: xxxx xxx xxx                        */
-		/* Gmail: thglam.info@gmail.com                   */
-		/* Website: https://yuzutips.xyz                  */
-		/*------------------------------------------------*/
-		html,body{cursor:url("https://i.imgur.com/5v5M8gh.png"),auto;}a:hover{cursor:url("https://i.imgur.com/IXULuQ1.png"),auto;}
-		:root{--primary-color:#cea469;--secondary-color:#231f20;--dark-color:#cea469}.modal{--header-color:#050505;--body-color:#2A2A2A}*{padding:0;margin:0;box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;font-family:'Roboto',sans-serif}body{overflow:hidden!important;background:url(https://imgur.com/64LMpZZ.jpg);background-size:cover;background-position:center}.blue{color:#108EE9}.blur{filter:blur(5px);-webkit-filter:blur(5px)}.banks ~ a{display:block;text-decoration:none;color:var(--secondary-color);margin-top:20px;font-size:15px;padding:10px;background:var(--primary-color);text-align:center;font-weight:500;transition:0.5s ease-in;text-transform:uppercase}.banks ~ a:hover{color:var(--primary-color);background:url('https://i.imgur.com/dAtTjAA.png');background-size:cover;background-position:center;border:2px solid var(--dark-color)}.container{width:411px;max-width:100vw;height:100vh;position:absolute;top:0;left:50%;transform:translateX(-50%);padding:30px 12px 30px 20px;overflow:hidden scroll;background:#111;color:var(--primary-color)}.profile-header{width:100%;display:flex;flex-wrap:wrap;margin-bottom:30px}.profile-avatar{width:100px;height:100px;background-color:var(--dark-color);object-fit:cover;object-position:center;border-radius:20px}.profile-info{margin-top:auto;padding:0 15px;flex:1}.profile-name{margin-bottom:10px;font-size:22px;font-weight:500}.check-mark{font-size:18px;font-weight:500}.skills{display:flex;flex-wrap:nowrap}.skill-tag{padding:3px 10px;margin-right:10px;color:var(--primary-color);font-size:12px;position:relative;display:none}.skill-tag:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background-color:currentColor;opacity:0.25;border-radius:5px}.skill-tag:first-child{display:block}.skill-tag:nth-child(2){display:block}.title{margin-bottom:15px}.banks{width:100%;--size:80px;--border-size:2px;--border-rounded:25px}.bank:last-child{margin-bottom:0}.bank{width:100%;height:var(--size);background:var(--secondary-color);margin-bottom:20px;display:flex;flex-wrap:wrap;border:var(--border-size) solid var(--dark-color);transition:0.2s ease-in-out;animation:fadein 2s}.bank-logo{height:100%;object-fit:cover;object-position:center;transition:0.3s ease}.bank-info{flex:1;text-align:center;padding:10px 7.5px;display:flex;flex-direction:column;justify-content:space-between;align-items:center}.bank-info > p{font-weight:500;line-height:1}.bank-name{font-size:13px}.bank-number{font-size:13px}.bank-owner{font-size:13px}.btn-copy{width:60px;text-align:center;font-size:12px;height:fit-content;padding:5px 10px;position:relative;top:50%;right:10px;transform:translateY(-50%);cursor:pointer}.btn-copy:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background:currentColor;border-radius:10px;opacity:0.1}.btn-copy:hover:before{opacity:1;background:transparent;border:1px solid var(--primary-color)}.bank:hover{background-color:#000;background-image:url('https://i.imgur.com/dAtTjAA.png');background-size:cover;background-position:center}.bank:hover .bank-logo{opacity:0}@keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes slidein{from{top:120%}to{top:50%}}html{scrollbar-face-color:#646464;scrollbar-base-color:#646464;scrollbar-3dlight-color:#646464;scrollbar-highlight-color:#646464;scrollbar-track-color:#000;scrollbar-arrow-color:#000;scrollbar-shadow-color:#646464;scrollbar-dark-shadow-color:#646464}::-webkit-scrollbar{width:8px;height:3px}::-webkit-scrollbar-button{background-color:#666}::-webkit-scrollbar-track{background-color:#646464}::-webkit-scrollbar-track-piece{background-color:#000}::-webkit-scrollbar-thumb{height:50px;background-color:#666;border-radius:3px}::-webkit-scrollbar-corner{background-color:#646464}::-webkit-resizer{background-color:#666}@media only screen and (max-width:410px){.container{width:100vw}}@media only screen and (max-width:360px){.modal{width:320px}}@media only screen and (max-width:355px){.profile-avatar{width:90px;height:90px}.profile-name{font-size:20px}.check-mark{font-size:16px}.bank{height:70px}.bank-info{padding:10px}.bank-info > p{font-size:13px}.modal{width:315px}}@media only screen and (max-width:320px){.banks ~ a{font-size:12px;padding:10px}.banks ~a > .pay-here{display:none}.profile-avatar{width:80px;height:80px}.profile-name{font-size:18px}.check-mark{font-size:14px}.bank{height:65px}.bank-info{padding:7.5px 5px}.bank-info > p{font-size:10px}.btn-copy{font-size:10px}.modal{width:295px}}.modal{width:350px;display:flex;flex-direction:column;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);overflow:hidden;border-radius:15px;border:2px dashed #fff;display:none}.modal.active{display:block;animation:fadein 1s,slidein 1s}.modal-top{background:rgb(30,30,30);background:linear-gradient(173deg,rgba(30,30,30,1) 0%,rgba(30,30,30,1) 85%);padding:30px 20px;text-align:center}.modal-top img{width:60%;margin-bottom:20px}.modal-top .modal-title{font-size:18px;color:#fff;margin-bottom:20px;font-weight:500}.modal-top .modal-content{font-size:15px;font-weight:400;color:#eee}.modal-bottom{display:flex;margin:0;background:#000;border-top:2px solid #000}.modal-btn{flex:1;background:#444444;font-size:15px;font-weight:450;text-align:center;color:#fff;padding:10px 0;cursor:pointer}#transfer{border-right:1px solid #000}#dismiss{border-left:1px solid #000}.modal-btn:hover{background:#515151}
+		@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pattaya|Srisakdi&display=swap");html,body{cursor:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mouse-f1.png"),auto}a:hover{cursor:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mouse-f2.png"),auto}.loader{background:#4568dc;background:-webkit-linear-gradient(to right,#b06ab3,#4568dc);background:linear-gradient(to right,#b06ab3,#4568dc);opacity:0.6;bottom:0;left:0;overflow:hidden;position:fixed;right:0;top:0;z-index:99999}.loader-inner{bottom:0;height:60px;left:0;margin:auto;position:absolute;right:0;top:0;width:100px}.loader-line-wrap{animation:spin 2000ms cubic-bezier(0.175,0.885,0.32,1.275) infinite;box-sizing:border-box;height:50px;left:0;overflow:hidden;position:absolute;top:0;transform-origin:50% 100%;width:100px}.loader-line{border:4px solid transparent;border-radius:100%;box-sizing:border-box;height:100px;left:0;margin:0 auto;position:absolute;right:0;top:0;width:100px}.loader-line-wrap:nth-child(1){animation-delay:-50ms}.loader-line-wrap:nth-child(2){animation-delay:-100ms}.loader-line-wrap:nth-child(3){animation-delay:-150ms}.loader-line-wrap:nth-child(4){animation-delay:-200ms}.loader-line-wrap:nth-child(5){animation-delay:-250ms}.loader-line-wrap:nth-child(1) .loader-line{border-color:hsl(0,80%,60%);height:90px;width:90px;top:7px}.loader-line-wrap:nth-child(2) .loader-line{border-color:hsl(60,80%,60%);height:76px;width:76px;top:14px}.loader-line-wrap:nth-child(3) .loader-line{border-color:hsl(120,80%,60%);height:62px;width:62px;top:21px}.loader-line-wrap:nth-child(4) .loader-line{border-color:hsl(180,80%,60%);height:48px;width:48px;top:28px}.loader-line-wrap:nth-child(5) .loader-line{border-color:hsl(240,80%,60%);height:34px;width:34px;top:35px}@keyframes spin{0%,15%{transform:rotate(0)}100%{transform:rotate(360deg)}}*{font-family:"Roboto";padding:0;margin:0}.border{position:relative;width:50%;height:2px;background-color:rgb(138,138,138)}#boxs{margin-top:3px}#bg{position:fixed;min-height:100vh;min-width:100%;background-image:url("https://i0.wp.com/i.pinimg.com/originals/5f/08/58/5f085809f2b711643e4eb4974cc03c0e.gif");background-size:cover;background-position:center;margin:0;padding:0;top:0;left:0}#window{position:absolute;min-height:100%;min-width:100%;background-color:#000000;padding:0;top:0;left:0}#main{z-index:2;position:relative;width:450px;padding-bottom:5px;background-color:#ffffffa4;border-radius:25px;margin-top:5px;-webkit-box-shadow:0 0 50px 0 rgba(0,0,0,0.74);box-shadow:0 0 10px 0 rgba(0,0,0,0.74)}#cover{position:relative;height:100%;width:100%;background-image:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/cover.gif");background-position:center;background-size:cover;border-top-left-radius:25px;border-top-right-radius:25px;padding-top:30px;padding-bottom:30px}#bg-cover{position:absolute;height:100%;width:100%;background-image:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/cover.gif");background-position:center;background-size:cover;border-top-left-radius:25px;border-top-right-radius:25px;filter:opacity(0.6)}#avatar{position:relative;background-position:center;background-size:cover;border-radius:100%;border:5px solid #1877f2;-webkit-box-shadow:0 0 50px 0 rgba(0,0,0,0.74);box-shadow:0 0 10px 0 rgba(0,0,0,0.74)}#avatar img{height:200px;width:200px;border-radius:50%;object-fit:cover;position:relative;border:2px solid #fff}.center{display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:0}#name{text-align:center;font-weight:bold;font-size:30px;margin-top:10px;margin-bottom:0;font-family:"Lobster"}#name i{color:#1877f2;font-size:25px}#bio{text-align:center;margin-top:10px;margin-bottom:10px;font-family:"Roboto";font-size:16px}#contact-text{display:inline-block;padding:2px 15px;border-radius:15px;margin-top:10px;margin:10px auto;text-align:center;font-weight:lighter;font-size:20px;color:#ffffff;background:rgb(45,136,255);background:rgb(45,136,255);background:-moz-linear-gradient(127deg,rgba(45,136,255,1) 0%,rgba(131,186,255,1) 100%);background:-webkit-linear-gradient(127deg,rgba(45,136,255,1) 0%,rgba(131,186,255,1) 100%);background:linear-gradient(127deg,rgba(45,136,255,1) 0%,rgba(131,186,255,1) 100%);font-family:"Lobster";transition:all 250ms;cursor:default}#contact-text:hover{transform:scale(1.2);padding:2px 55px}.box{height:50px;width:75%;margin:5px auto;border-radius:20px;background:rgb(42,100,173);background:-moz-linear-gradient(127deg,rgba(42,100,173,1) 0%,rgba(45,136,255,1) 100%);background:-webkit-linear-gradient(127deg,rgba(42,100,173,1) 0%,rgba(45,136,255,1) 100%);background:linear-gradient(127deg,rgba(42,100,173,1) 0%,rgba(45,136,255,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a64ad",endColorstr="#2d88ff",GradientType=1);-webkit-box-shadow:0 0 50px 0 rgba(0,0,0,0.74);box-shadow:0 0 10px 0 rgba(0,0,0,0.74);z-index:1;transition:all 250ms}.box:hover{padding-right:20px}.icon{display:inline;position:relative;height:50px;width:50px}.icon i{font-size:30px;margin:10px 20px;color:#ffffff;transition:transform 250ms;z-index:2}.icon i:hover{transform:rotate(360deg)}.detail{position:relative;display:block;margin:0 auto;font-size:20px;color:#ffffff;text-align:center;margin-top:10px;transition:all 500ms;font-family:"Roboto"}.col-10{position:relative;max-height:100%}.col-10:hover .detail{filter:opacity(0);z-index:-5}.col-10:hover .linked{filter:opacity(1);z-index:5}.col-10:active .detail{filter:opacity(0);z-index:-5}.col-10:active .linked{filter:opacity(1);z-index:5}.fas{transition:all 250ms}.col-10:hover .fas{transform:rotate(360deg)}.linked{position:relative;margin:0 auto;font-size:20px;color:#ffffff;text-align:center;margin-top:10px;transition:all 500ms;top:-40px;z-index:-2;filter:opacity(0);transition:all 1000ms;font-family:"Roboto"}.div-logo{position:relative;height:30px;width:30px;background-position:center;background-size:cover;margin:10px 20px;z-index:5;transition:all 250ms}.div-logo:hover{transform:rotate(360deg)}@media only screen and (max-width:540px){#main{width:100vw;margin-top:0vw;margin-bottom:0;border-radius:0}#bg-cover{border-radius:0}#window{min-height:100%;min-width:100%}.linked{font-size:19px}}.facebook{background:#3a5795;color:#1c3977;background:linear-gradient(to bottom,#3a5795 0%,#2b4886 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#3a5795),color-stop(100%,#2b4886));background:-webkit-linear-gradient(top,#3a5795 0%,#2b4886 100%);background:-moz-linear-gradient(top,#3a5795 0%,#2b4886 100%);background:-o-linear-gradient(top,#3a5795 0%,#2b4886 100%);background:-ms-linear-gradient(top,#3a5795 0%,#2b4886 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3A5795',endColorstr='#2B4886',GradientType=0);border:1px solid #1c3977;text-shadow:0 1px 0 #4966a4;-webkit-text-shadow:0 1px 0 #4966a4;-moz-text-shadow:0 1px 0 #4966a4;box-shadow:inset 0 1px 0 #4966a4;-webkit-box-shadow:inset 0 1px 0 #4966a4;-moz-box-shadow:inset 0 1px 0 #4966a4}.messenger{background:#fc466b;background:-webkit-linear-gradient(to right,#3f5efb,#fc466b);background:linear-gradient(to right,#3f5efb,#fc466b)}.tiktok{background:#010101;background:-webkit-linear-gradient(to right,#010101,#6c0016);background:linear-gradient(to right,#010101,#6c0016)}.zalo{background:#0064f7;background:linear-gradient(127deg,#0064f7 0%,#2a7fff 100%)}.zalo-icon{background-image:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/zalo.png")}.phone{background:#1f1c2c;background:-webkit-linear-gradient(to right,#1f1c2c,#928dab);background:linear-gradient(to right,#1f1c2c,#928dab)}.momo{background:#a80069;background:linear-gradient(127deg,#a80069 0%,#d73193 100%)}.momo-icon{background-image:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/momo.png")}.vietcombank{background:#006c46;background:linear-gradient(127deg,#006c46 0%,#77bc41 100%)}.vietcombank-icon{background-image:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/vietcombank.png")}.mbbank{background:#1f00cf;background:linear-gradient(127deg,#1f00cf 0%,#006db5 100%)}.mbbank-icon{background-image:url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mbbank.png")}.badge{font-weight:bold;color:#ffffff;background-color:#2d88ff;padding:0.5px 3px;border-radius:3px;font-size:10px}a{text-decoration:none!important;color:rgb(42,100,173)!important}
 		]]></b:skin>
-  <style type='text/css'>
-/* Snow Falling Effect */
-.techyball{position:fixed;top:0;left:0;right:0;pointer-events:none;z-index:20}
-.snowstech{height:100%;position:relative;overflow:hidden;z-index:1}
-</style>
 	&lt;/head&gt;
 	<!-- Bắt đầu phần hiển thị -->
 	&lt;body&gt;
-
-		<div class='container'>
-			<div class='profile-header'>
-				<img alt='Avatar' class='profile-avatar' src='https://imgur.com/lRRvTSV.jpg'/>
-				<div class='profile-info'>
-					<h4 class='profile-name'>Nguyễn Văn Phúc <i class='fad fa-badge-check'/></h4>
-					<div class='skills'>
-						<div class='skill-tag'>Developer</div>
-						<div class='skill-tag'>Tricker</div>
-					</div>
+		<!-- loading -->
+		<div class='loader'>
+			<div class='loader-inner'>
+				<div class='loader-line-wrap'>
+					<div class='loader-line'/>
+				</div>
+				<div class='loader-line-wrap'>
+					<div class='loader-line'/>
+				</div>
+				<div class='loader-line-wrap'>
+					<div class='loader-line'/>
+				</div>
+				<div class='loader-line-wrap'>
+					<div class='loader-line'/>
+				</div>
+				<div class='loader-line-wrap'>
+					<div class='loader-line'/>
 				</div>
 			</div>
-			<h4 class='title'>Thông tin ngân hàng</h4>
-			<div class='banks'/>
-			<a class='contact' href='https://www.facebook.com/nguyenvanphuc.comm'><i class='fad fa-home-heart'/> Facebook</a>
 		</div>
-		<div class='modal deactive'>
-			<div class='modal-top'>
-				<img alt='Transfer now' src='https://i.imgur.com/G2SdBu1.png'/>
-				<h1 class='modal-title'>CHUYỂN TIỀN NHANH CHÓNG</h1>
-				<h1 class='modal-content'>Chuyển tiền ngay thông qua app Momo bằng một lần chạm</h1>
-			</div>
-			<div class='modal-bottom'>
-				<span class='modal-btn' id='transfer'>CHUYỂN NGAY</span>
-				<span class='modal-btn' id='dismiss'>SAO CHÉP</span>
-			</div>
-		</div>
-		<script type='text/javascript'>
-			//<![CDATA[
-			const USER = {
-				banks: [
-					{
-						name: "MB BANK",
-						logo: "https://i.imgur.com/fHoxejI.png",
-						number: "0342956482",
-						owner: "NGUYEN VAN PHUC"
-					},
-					{
-						name: "MOMO",
-						logo: "https://i.imgur.com/dgZP0D7.jpg",
-						number: "0342956482",
-						owner: "NGUYEN VAN PHUC",
-						fastTransfer: true
-					},
-				]
-			};
-			//]]>
-		</script>
-		<script type='text/javascript'>
-			//<![CDATA[
-			const elmContainer = document.querySelector('.container');
-			const elmBanks = document.querySelector('.banks');
-			const modal = document.querySelector('.modal');
-
-			/* ===== WEBSITE ===== */
-			function RenderBanks(banks = []) {
-				let htmlBanks = '';
-				banks.forEach(bank => {
-					let classShowModal = (bank.hasOwnProperty('fastTransfer') && bank.fastTransfer) ? 'btn-show-modal' : '';
-					htmlBanks += `
-							<div class="bank">
-								<img src="${bank.logo}" class="bank-logo">
-								<div class="bank-info">
-									<p class="bank-name">${bank.name}</p>
-									<p class="bank-number">STK: ${bank.number}</p>
-									<p class="bank-owner">CTK: ${bank.owner}</p>
+		<!-- main -->
+		<div class='center' id='window'>
+			<div id='main'>
+				<!-- avatar -->
+				<div class='center' id='cover'>
+					<div id='bg-cover'/>
+					<div id='avatar'>
+						<img alt='avt' src='https://i.imgur.com/X7BIveN.jpg'/>
+					</div>
+				</div>
+				<div id='content'>
+					<!-- info -->
+					<p id='name'>
+						Arlo Saber <i class='fad fa-badge-check'/>
+					</p>
+					<div class='center'>
+						<span class='badge'>
+							<i class='fas fa-code'/> Designer and developer
+						</span>
+					</div>
+					<p id='bio'>Chia sẻ kiến thức, tư duy sáng tạo!</p>
+					<div class='center'>
+						<div class='border'/>
+						<p id='contact-text'>Thông tin danh tính</p>
+					</div>
+					<!-- contact -->
+					<div class='center boxs' id='boxs'>
+						<!-- facebook -->
+						<div class='box facebook'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'><i class='fab fa-facebook'/></div>
 								</div>
-								<span class="btn-copy ${classShowModal}" data-number="${bank.number}">Copy</span>
+								<!--<div class='col-10' onclick='openlink(&quot;https://www.facebook.com/leanhduc.pro.vn/&quot;)'>-->
+                                  <div class='col-10' onclick='Alert();'>
+									<p class='detail'>Facebook</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
 							</div>
-						`;
-				});
-				elmBanks.innerHTML = htmlBanks;
-			}
+						</div>
+						<!-- tiktok -->
+						<div class='box tiktok'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<i class='fab fa-tiktok'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='openlink(&quot;https://www.tiktok.com/@leanhduc.pro.vn&quot;)'>-->
+                                  <div class='col-10' onclick='Alert();'>
+									<p class='detail'>TikTok</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
+							</div>
+						</div>
+						<!-- messenger -->
+						<div class='box messenger'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<i class='fab fa-facebook-messenger'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='openlink(&quot;https://www.m.me/leanhduc.pro.vn/&quot;)'>-->
+                                  <div class='col-10' onclick='Alert();'>
+									<p class='detail'>Messenger</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
+							</div>
+						</div>
+						<!-- zalo -->
+						<div class='box zalo'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<div class='div-logo zalo-icon'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='openlink(&quot;https://www.zalo.me/0386897757/&quot;);'>-->
+                                  <div class='col-10' onclick='Alert();'>
+									<p class='detail'>Zalo</p>
+									<p class='linked'>Arlo Saber</p>
+								</div>
+							</div>
+						</div>
+						<!-- phone -->
+						<div class='box phone'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<i class='fas fa-phone'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='openlink(&quot;tel:+84977977655&quot;);'>-->
+                                  <div class='col-10' onclick='Alert();'>
+									<p class='detail'>Phone</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
+							</div>
+						</div>
+						<!-- momo -->
+						<div class='box momo'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<div class='div-logo momo-icon'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='openlink(&quot;https://nhantien.momo.vn/0386897757&quot;);'>-->
+                              	<div class='col-10' onclick='Alert();'>
+									<p class='detail'>Momo</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
+							</div>
+						</div>
+						<!-- vietcombank-->
+						<div class='box vietcombank'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<div class='div-logo vietcombank-icon'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='copytext(&quot;00000000&quot;);'>-->
+                              	<div class='col-10' onclick='Alert();'>
+									<p class='detail'>Vietcombank</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
+							</div>
+						</div>
+						<!-- mbbank -->
+						<div class='box mbbank'>
+							<div class='row'>
+								<div class='col-2'>
+									<div class='icon'>
+										<div class='div-logo mbbank-icon'/>
+									</div>
+								</div>
+								<!--<div class='col-10' onclick='copytext(&quot;00000000&quot;);'>-->
+                              	<div class='col-10' onclick='Alert();'>
+									<p class='detail'>MBBank</p>
+									<p class='linked'>Chưa cập nhật</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div id='bg'/>
+		</div>
+		<script src='https://code.jquery.com/jquery-3.6.0.min.js'/>
+		<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'/>
+  		<script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'/>
 
-			/* ===== EVENT ===== */
-			function CopyEvent() {
-				const elmCopies = document.querySelectorAll('.btn-copy');
-				elmCopies.forEach(btn => {
-					btn.addEventListener('click', e => {
-						elmCopies.forEach(elm => elm.textContent = 'Copy');
-						let number = btn.getAttribute('data-number');
-						let temp = document.createElement('textarea');
-						temp.value = number;
-						document.body.appendChild(temp);
-						temp.select();
-						document.execCommand('copy');
-						document.body.removeChild(temp);
-						btn.textContent = 'Copied';
-					});
-				})
-			}
-
-			function MouseLeaveEvent() {
-				const elmBank = document.querySelectorAll('.bank');
-				elmBank.forEach(bank => {
-					bank.addEventListener('mouseleave', e => {
-						let btn = bank.querySelector('.btn-copy');
-						btn.textContent = 'Copy';
-					});
-				});
-			}
-
-			function ShowModalEvent() {
-				const elmShowModals = document.querySelectorAll('.btn-show-modal');
-				elmShowModals.forEach(btn => 
-					btn.addEventListener('click', e => {
-						let number = btn.getAttribute('data-number');
-						ShowModal(number);
-						btn.textContent = 'Copied';
-					})
-				);
-			}
-
-			/* ===== MODAL ===== */
-			function ShowModal(number = 123456789) {
-				modal.classList.add('active');
-				elmContainer.classList.add('blur');
-				modal.querySelector('#transfer').addEventListener('click', e => {
-					let link = 'https://nhantien.momo.vn/' + number;
-					let newWindow = window.open(link, '_blank');
-					modal.querySelector('#dismiss').click();
-					setTimeout(() => {
-						newWindow.close();
-					}, 2000)
-				});
-			}
-
-			function CloseModalEvent() {
-				modal.querySelector('#dismiss').addEventListener('click', e => {
-					modal.classList.remove('active');
-					elmContainer.classList.remove('blur');
-				});
-			}
-
-			const user = USER;
-			RenderBanks(user.banks);
-			ShowModalEvent();
-			CloseModalEvent();
-			CopyEvent();
-			MouseLeaveEvent();
+		<script type='text/javascript'>
+			//<![CDATA[
+				// loading
+				$(".loader").delay(1000).fadeOut("fast");
+				// open link
+				function openlink(url) {
+					window.open(url, "_blank").focus();
+				}
+				// click copy
+				function copytext(str) {
+					const el = document.createElement("textarea");
+					el.value = str;
+					document.body.appendChild(el);
+					el.select();
+					document.execCommand("copy");
+					Swal.fire("Thông báo", "Copy thành công!", "success");
+				}
+				// alert
+				function Alert(){
+				swal("Chưa cập nhật!", "Admin chưa cập nhật thông tin này", "error");
+				}
 			//]]>
 		</script>
-		<b:section id='code.pro.vn'/>
+		<b:section id='w5vn.com'/>
 	&lt;!--<head/>--&gt;
-  <div class='snowstech'>
-<canvas class='techyball' id='techyball'/>
-</div>
-<script type='text/javascript'>
-//<![CDATA[
-!function(){function t(t){var n=t.getContext("2d"),e=0,i=0,o=[],d=function(){this.x=this.y=this.dx=this.dy=0,this.reset()};function a(){e=window.innerWidth,i=window.innerHeight,t.width=e,t.height=i,function(t){if(t!=o.length){o=[];for(var n=0;n<t;n++)o.push(new d)}}(e*i/1e4)}d.prototype.reset=function(){this.y=Math.random()*i,this.x=Math.random()*e,this.dx=1*Math.random()-.5,this.dy=.5*Math.random()+.5},a(),function t(){n.clearRect(0,0,e,i),n.fillStyle="rgba(255,255,255,.3)",o.forEach(function(t){t.y+=t.dy,t.x+=t.dx,t.y>i&&(t.y=0),t.x>e&&(t.reset(),t.y=0),n.beginPath(),n.arc(t.x,t.y,5,0,2*Math.PI,!1),n.fill()}),window.requestAnimationFrame(t)}(),window.addEventListener("resize",a)}var n;n=function(){t(document.getElementById("techyball"))},"loading"!=document.readyState?n():document.addEventListener("DOMContentLoaded",n)}();
-//]]>
-</script>
 	&lt;!--<body/>--&gt;
 	&lt;/body&gt;
 	<!-- Kết thúc phần hiển thị -->
